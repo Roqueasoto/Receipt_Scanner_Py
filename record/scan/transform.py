@@ -29,7 +29,7 @@ def _order_points(pts):
     return corners
 
 
-def _four_point_transform(image,pts):
+def four_point_transform(image, pts):
     # Order the points consistently and unpack them.
     rect = _order_points(pts)
     (tr, tl, bl, br) = rect
@@ -56,4 +56,10 @@ def _four_point_transform(image,pts):
         dtype="float32"
     )
 
+    # Compute the perspective transform matrix and apply it
+    p_mat = cv2.getPerspectiveTransform(rect, new_pts)
+    warped = cv2.warpPerspective(image, p_mat, (max_width, max_height))
+
+    # Return the warped image
+    return warped
 
