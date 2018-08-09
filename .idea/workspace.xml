@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4740c9a3-19d7-40de-af4c-88473e526dab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/record/archive/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/record/archive/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/record/export/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/record/export/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/record/scan/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/record/scan/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/record/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/record/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/record/scan/scanner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/images/test_image_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/images/test_image_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/images/test_image_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/images/test_image_04.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/images/test_image_05.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/images/test_image_06.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/record/scan/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/record/scan/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transform_example_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/transform_example_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,38 +21,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Receipt_Scanner_Py$scanner.coverage" NAME="scanner Coverage Results" MODIFIED="1533841829230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record/scan" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="215001031">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="Pipfile" value="2" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="170" />
+          <entry key="Python Console" value="264" />
           <entry key="dummy" value="5" />
-          <entry key="py" value="4295" />
+          <entry key="py" value="11176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="4465" />
+          <entry key="Python" value="11440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -55,41 +83,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/record/scan/transform.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <state relative-caret-position="280">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
               <folding>
-                <element signature="e#134#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/transform_example_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="76" />
-              <folding>
-                <element signature="e#200#210#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/record/scan/__init__.py">
+        <entry file="file://$PROJECT_DIR$/record/scan/scanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/record/export/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+            <state relative-caret-position="1598">
+              <caret line="106" column="65" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+              <folding>
+                <element signature="e#329#372#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,13 +119,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/record/scan/transform.py" />
         <option value="$PROJECT_DIR$/record/scan/transform_example.py" />
-        <option value="$PROJECT_DIR$/tests/transform_example_test.py" />
         <option value="$PROJECT_DIR$/record/ui/__init__.py" />
         <option value="$PROJECT_DIR$/record/archive/__init__.py" />
         <option value="$PROJECT_DIR$/record/scan/__init__.py" />
         <option value="$PROJECT_DIR$/record/export/__init__.py" />
+        <option value="$PROJECT_DIR$/tests/transform_example_test.py" />
+        <option value="$PROJECT_DIR$/record/scan/scanner.py" />
+        <option value="$PROJECT_DIR$/record/scan/transform.py" />
       </list>
     </option>
   </component>
@@ -126,15 +137,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="width" value="2330" />
-    <option name="height" value="2111" />
+    <option name="x" value="-12" />
+    <option name="width" value="2322" />
+    <option name="height" value="2112" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,11 +188,16 @@
               <item name="Receipt_Scanner_Py" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Receipt_Scanner_Py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Receipt_Scanner_Py" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +205,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -230,6 +247,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scanner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Receipt_Scanner_Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/record/scan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/record/scan/scanner.py" />
+      <option name="PARAMETERS" value="--image ..\..\tests\images\example_01.png" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scanner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -245,10 +289,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1553" height="1407" extended-state="0" />
+    <frame x="-8" y="0" width="1548" height="1408" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23509713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24260753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,18 +305,44 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4996651" visible="true" weight="0.3320251" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32967034" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003349" side_tool="true" weight="0.3320251" />
-      <window_info anchor="right" x="0" y="0" width="338" height="1207" id="Documentation" side_tool="true" visible="true" weight="0.32083055" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865592" weight="0.3317647" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49865592" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013441" side_tool="true" weight="0.3317647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" x="1006" y="136" width="491" height="852" id="SciView" order="3" sideWeight="0.33567253" visible="true" weight="0.32392472" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32997313" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32997313" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32997313" />
+      <window_info anchor="right" x="0" y="0" width="338" height="1207" id="Documentation" order="7" sideWeight="0.6643275" side_tool="true" visible="true" weight="0.32392472" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24260753" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865592" weight="0.3317647" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49865592" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013441" side_tool="true" weight="0.3317647" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="1006" y="136" width="491" height="852" id="SciView" order="3" sideWeight="0.33450294" visible="true" weight="0.32459676" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32997313" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32997313" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32997313" />
+      <window_info active="true" anchor="right" x="0" y="0" width="338" height="1207" id="Documentation" order="7" sideWeight="0.66549706" side_tool="true" visible="true" weight="0.32459676" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -280,22 +350,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/RScan.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record/scan/transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-          <folding>
-            <element signature="e#134#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/record/archive/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -311,16 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/transform_example_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="76" />
-          <folding>
-            <element signature="e#200#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/record/export/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -330,8 +394,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/record/scan/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Receipt_Scanner_Py-9xAzogBa/Lib/site-packages/imutils/convenience.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/transform_example_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#201#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record/scan/transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record/scan/scanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="106" column="65" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+          <folding>
+            <element signature="e#329#372#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,12 +1,8 @@
-# Python Script to perform a 4 point perspective transform on a photo
-# document (rectangle shape), converting it to birds-eye view. Adapted
-# from the www.pyimagesearch.com image getPerspectiveTransform tutorial.
-
 import numpy as np
 import cv2
 
 
-def _order_points(pts):
+def order_points(pts):
     # Initializing a list of coordinates to store the corners of the
     # rectangle in the picture, with the 0th entry corresponding to the
     # top-left corner, the 1st entry to the top-right corner, the 2nd
@@ -31,8 +27,20 @@ def _order_points(pts):
 
 
 def four_point_transform(image, pts):
+    """
+    Performs a 4 point perspective transform on a photo document of
+    rectangle shape and converts it to bird's-eye view. Adapted from the
+    www.pyimagesearch.com image getPerspectiveTransform tutorial.
+    :param image:
+        An opencv image object of a document.
+    :param pts:
+        A 4by2 matrix of the corners of the document in the image.
+    :return warped:
+        The transformed version of the document in the image.
+    """
+
     # Order the points consistently and unpack them.
-    rect = _order_points(pts)
+    rect = order_points(pts)
     (tr, tl, bl, br) = rect
 
     # Compute the width of the new image, as the maximum of the distance

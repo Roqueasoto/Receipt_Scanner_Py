@@ -13,10 +13,10 @@ sys.path.append('C:\\Users\\roque\\Documents\\Projects\\Receipt_Scanner_Py')
 from record.scan.transform import four_point_transform
 
 # Construct the argument parser.
-ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", help="path to the image file")
-ap.add_argument("-c", "--coords", help="comma separated list of source points")
-args = vars(ap.parse_args())
+arg = argparse.ArgumentParser()
+arg.add_argument("-i", "--image", help="path to the image file")
+arg.add_argument("-c", "--coords", help="comma separated list of source points")
+args = vars(arg.parse_args())
 
 # Load the image and grab the source coordinates (list of x, y points).
 image = cv2.imread(args["image"])

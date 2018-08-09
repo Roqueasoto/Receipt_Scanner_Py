@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 numpy = "*"
 opencv-python = "*"
+imutils = "*"
+setuptools = "*"
+cython = "*"
+scikit-image = "*"
 
 [dev-packages]
 
